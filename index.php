@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portal de votação</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="pagina-inicial"> 
     <?php 
     session_start(); $_SESSION = array(); 
     ?>
 
 <header>
     <div class="topo">
-        <h1>Portal de Votação</h1>
-        <p>Eleições 2026</p>
+        <img src="img/eleicao1.png" alt="Eleições 2026">
     </div>
 </header>
 
@@ -97,7 +97,7 @@
 
 
     <div class="comecar">
-        <a href="deputado_federal.php" class="botao">
+        <a href="deputado_federal.php" class="botao-iniciar">
             Iniciar votação
         </a>
     </div>
@@ -105,7 +105,7 @@
 </div>
 
 <footer>
-    <p>Portal de Votação • Eleições 2026</p>
+    <p>Portal de Votação - Eleições 2026</p>
 </footer>
 
 </body>
