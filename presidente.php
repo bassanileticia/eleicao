@@ -23,7 +23,7 @@
         ) {
             $_SESSION["presidente"] = $voto;
 
-            header("Location: final.php");
+            header("Location: comprovante.php");
             exit;
         }
     }
